@@ -1,0 +1,23 @@
+{
+    "rankingType": "rankingType",
+    "displayName": "name",
+    "urlName": "urlName",
+    "region": "region",
+    "institutionalControl": "fundingType",
+    "rankingSortRank": "rank",
+    "location": "location",
+    "tuition": "tuition",
+    "enrollment": "totalUndergradEnrollment",
+    "costAfterAid": "costAfterAid",
+    "percentReceivingAid": "percentReceivingAid",
+    "acceptanceRate": "acceptanceRate",
+    "hsGpaAvg": "hsGpa",
+    "engineeringRepScore": "engineeringRepScore",
+    "businessRepScore": "businessRepScore",
+    "computerScienceRepScore": "computerScienceRepScore",
+    "nursingRepScore": "nursingRepScore",
+    "sat25": "sat25",
+    "sat75": "sat75",
+    "act25": "act25",
+    "act75": "act75"
+}

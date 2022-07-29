@@ -1,0 +1,229 @@
+{
+    "primaryKey": [
+        "national-universities",
+        "overall",
+        "2627"
+    ],
+    "institution": {
+        "footnote": null,
+        "isPublic": true,
+        "primaryKey": "2627",
+        "schoolType": "national-universities",
+        "ranking": "overall",
+        "rankingType": "national-universities",
+        "displayName": "Princeton University",
+        "sortName": "princetonuniversity",
+        "urlName": "princeton-university",
+        "aliasNames": null,
+        "state": "NJ",
+        "city": "Princeton",
+        "zip": "08544",
+        "region": null,
+        "xwalkId": "186131",
+        "metroId": "45940",
+        "institutionalControl": "private",
+        "rankingDisplayName": "National Universities",
+        "rankingDisplayRank": "#1",
+        "rankingDisplayScore": "100",
+        "rankingMaxPossibleScore": null,
+        "rankingSortRank": 1,
+        "rankingNoteText": null,
+        "rankingNoteCharacter": null,
+        "rankingRankStatus": "ranked",
+        "rankingIsTied": false,
+        "isPrimary": true,
+        "linkedDisplayName": "<strong><a class=\"black90\" href=\"/best-colleges/princeton-university-2627\">Princeton University</a></strong>",
+        "location": "Princeton, NJ",
+        "rankingFullDisplayText": "#1 in National Universities",
+        "photoCount": 24,
+        "heroImage": false,
+        "primaryPhotoCardSmall": "https://www.usnews.com/dims4/USNEWS/0987fc7/17177859217/thumbnail/196x196/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2F4a%2Fde%2Fe754e2714cae81f92edb1c7b273d%2F190827princeton-university23.jpg",
+        "primaryPhotoMedium": "https://www.usnews.com/dims4/USNEWS/e720daa/17177859217/thumbnail/336x336/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2F4a%2Fde%2Fe754e2714cae81f92edb1c7b273d%2F190827princeton-university23.jpg",
+        "primaryPhotoCardLarge": "https://www.usnews.com/dims4/USNEWS/5e53ca7/17177859217/thumbnail/420x420/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2F4a%2Fde%2Fe754e2714cae81f92edb1c7b273d%2F190827princeton-university23.jpg",
+        "primaryPhotoThumb": "https://www.usnews.com/dims4/USNEWS/dd4c921/17177859217/thumbnail/170x170/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2F4a%2Fde%2Fe754e2714cae81f92edb1c7b273d%2F190827princeton-university23.jpg"
+    },
+    "overall": {
+        "displayName": "National Universities"
+    },
+    "parent": {
+        "displayName": "National Universities",
+        "displayRank": "#1",
+        "displayScore": "100",
+        "maxPossibleScore": null,
+        "sortRank": 1,
+        "noteText": null,
+        "noteCharacter": null,
+        "rankStatus": "ranked",
+        "isTied": false
+    },
+    "searchData": {
+        "parentRank": {
+            "displayValue": null,
+            "rawValue": null,
+            "fieldName": "parentRank"
+        },
+        "tuition": {
+            "subText": null,
+            "dataQaId": "v_search_tuition",
+            "noteText": null,
+            "rawValue": 56010,
+            "fieldType": "searchTuition",
+            "anchorPage": null,
+            "displayValue": "$56,010",
+            "noteCharacter": null,
+            "anchorLocation": null,
+            "correctionTooltip": null,
+            "fieldName": "searchTuition"
+        },
+        "enrollment": {
+            "dataQaId": "TOTAL_UNDERGRADS",
+            "noteText": null,
+            "rawValue": 4773,
+            "fieldName": "totalUndergrads",
+            "fieldType": null,
+            "anchorPage": null,
+            "displayValue": [
+                {
+                    "value": "4,773",
+                    "name": "(fall 2020)"
+                }
+            ],
+            "noteCharacter": null,
+            "anchorLocation": null,
+            "correctionTooltip": null
+        },
+        "costAfterAid": {
+            "dataQaId": "C_ALL_NET_COST",
+            "noteText": null,
+            "rawValue": 23572.0,
+            "fieldName": "cAllNetCost",
+            "fieldType": null,
+            "anchorPage": null,
+            "displayValue": "$23,572",
+            "noteCharacter": null,
+            "anchorLocation": null,
+            "correctionTooltip": null
+        },
+        "percentReceivingAid": {
+            "dataQaId": "C_PCT_NEED_BASED_AID",
+            "noteText": null,
+            "rawValue": 62,
+            "fieldName": "cPctNeedBasedAid",
+            "fieldType": null,
+            "anchorPage": null,
+            "displayValue": "62%",
+            "noteCharacter": null,
+            "anchorLocation": null,
+            "correctionTooltip": null
+        },
+        "acceptanceRate": {
+            "dataQaId": "R_C_ACCEPT_RATE",
+            "noteText": null,
+            "rawValue": 6,
+            "fieldName": "rCAcceptRate",
+            "fieldType": null,
+            "anchorPage": null,
+            "displayValue": "6%",
+            "noteCharacter": null,
+            "anchorLocation": null,
+            "correctionTooltip": null
+        },
+        "hsGpaAvg": {
+            "dataQaId": "AVG_HS_GPA",
+            "noteText": null,
+            "rawValue": 3.9,
+            "fieldName": "avgHsGpa",
+            "fieldType": null,
+            "anchorPage": null,
+            "displayValue": "3.9",
+            "noteCharacter": null,
+            "anchorLocation": null,
+            "correctionTooltip": null
+        },
+        "satAvg": {
+            "dataQaId": "sat_comp_25",
+            "noteText": null,
+            "rawValue": 1450,
+            "fieldName": "satCompSearch",
+            "displayValue": "1450-1570",
+            "noteCharacter": null,
+            "correctionTooltip": null
+        },
+        "actAvg": {
+            "dataQaId": "act_score_25",
+            "noteText": null,
+            "rawValue": 32,
+            "fieldName": "actScoreSearch",
+            "displayValue": "32-35",
+            "noteCharacter": null,
+            "correctionTooltip": null
+        },
+        "engineeringRepScore": {
+            "dataQaId": "ENGINEERING_PROGRAM",
+            "noteText": null,
+            "rawValue": "4.1",
+            "fieldName": "engineeringProgram",
+            "fieldType": null,
+            "displayValue": "4.1",
+            "noteCharacter": null,
+            "correctionTooltip": null
+        },
+        "businessRepScore": {
+            "dataQaId": "BUSINESS_PROGRAM",
+            "noteText": null,
+            "rawValue": null,
+            "fieldName": "businessProgram",
+            "fieldType": null,
+            "displayValue": "N/A",
+            "noteCharacter": null,
+            "correctionTooltip": null
+        },
+        "computerScienceRepScore": {
+            "dataQaId": "computer_science_program",
+            "noteText": null,
+            "rawValue": "4.5",
+            "fieldName": "computerScienceProgram",
+            "fieldType": null,
+            "displayValue": "4.5",
+            "noteCharacter": null,
+            "correctionTooltip": null
+        },
+        "nursingRepScore": {
+            "dataQaId": "nursing_program",
+            "noteText": null,
+            "rawValue": null,
+            "fieldName": "nursingProgram",
+            "fieldType": null,
+            "displayValue": "N/A",
+            "noteCharacter": null,
+            "correctionTooltip": null
+        },
+        "testAvgs": {
+            "displayValue": [
+                {
+                    "value": "1450-1570",
+                    "name": "SAT"
+                },
+                {
+                    "value": "32-35",
+                    "name": "ACT"
+                }
+            ]
+        }
+    },
+    "xwalkId": "186131",
+    "blurb": "<p>The ivy-covered campus of Princeton University, a private institution, is located in the quiet town of Princeton, New Jersey. Princeton was the first university to offer a \"no loan\" policy to financially needy students, giving grants instead of loans to accepted students who need help paying tuition.</p>",
+    "ranking": {
+        "ranking": "overall",
+        "type": "national-universities",
+        "displayName": "National Universities",
+        "displayRank": "#1",
+        "displayScore": "100",
+        "maxPossibleScore": null,
+        "sortRank": 1,
+        "noteText": null,
+        "noteCharacter": null,
+        "rankStatus": "ranked",
+        "isTied": false
+    }
+}
