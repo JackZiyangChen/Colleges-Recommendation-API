@@ -12,7 +12,7 @@ To run the project locally, feel free to use a local git terminal to download th
 For security reasons, I chose to exclude the .env file in my commit. Please reconfigure the project yourself with the following parameters:
 * SECRET_KEY
 * LOCAL_DB_URL
-* FLASK_APP=main.py
+* FLASK_APP=setup.py
 * DEBUG
 
 ## Prerequisites
