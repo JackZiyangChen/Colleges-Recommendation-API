@@ -4,7 +4,7 @@
 Some description will go here.
 
 ## Architecture Overview
-This project is divided into two separate section: one being the web app itself contained under "app" package, the other being a series of web scraper stored under the "scraper" folder. For the web app, flask framework was used to link together the database, the ML recommendation models, and the API. The API itself is constructed using the flask_restful library which is directly intergrated into the flask's blueprint system. 
+This project is divided into two separate section: one being the web app itself contained under "app" package, the other being a series of web scraper stored under the "scraper" folder. For the web app, flask framework was used to link together the database, the ML recommendation models, and the API. The API itself was constructed using the flask_restful library which was directly integrated into the flask's blueprint system. 
 
 ## Running the project
 To run the project locally, feel free to use a local git terminal to download the project. To configure the project, please run "setup.py" and follow the instructions of localhost in your terminal. Alternatively, after configuring appropriate environment variables, the project can also be ran using the command "flask run" at the root directory of the project.
