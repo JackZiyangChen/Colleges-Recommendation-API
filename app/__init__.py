@@ -16,8 +16,8 @@ API_NAV = "/api/"
 app = Flask(__name__)  # intialize flask app
 
 def create_app():
-    app.config['SECRET_KEY'] = "c3a845a318cd654749ea4db6f4d5f9cb5c6e5b0cade46d9dc04af46d32049c7c"  # I love python! 256
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://ltgyufytcurqqk:2712161adf7c052a206be5ea5bd3e9f0ae5b6de0f422250038980b6e8e4255d5@ec2-44-206-197-71.compute-1.amazonaws.com:5432/dae3ibk7serkj4'
+    app.config['SECRET_KEY'] = ""  # I love python! 256
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'f:///site.db'
     app.config['JSON_SORT_KEYS'] = False
 
 
