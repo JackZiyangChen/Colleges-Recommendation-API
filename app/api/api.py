@@ -92,3 +92,26 @@ class BetaRecommend(Resource):
 
 
         return make_response(jsonify(out), 200)
+
+class Search(Resource):
+    def get(self): # partial name -> list of {id, name, location}
+        args = self.reqparse.parse_args()
+        raw_input = args['input']
+
+        out = {}
+        out['status'] = 405
+        out['message'] = 'GET method not allowed, please use POST method to access this endpoint.'
+
+        return make_response(jsonify(out),405)
+
+
+class FullRecommend(Resource):
+    def get(self):
+        out = {}
+        out['status'] = 405
+        out['message'] = 'GET method not allowed, please use POST method to access this endpoint.'
+
+        return make_response(jsonify(out),405)
+    
+    def post(self):
+        pass #TODO implement after constructing ML model

@@ -7,6 +7,8 @@ import json
 
 US_NEWS_URL = 'https://www.usnews.com/best-colleges/api/search?format=json&_sort=rank&_sortDirection=asc'
 
+COLLEGE_DATA_COM_URL = 'https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/'
+
 USER_AGENT = {
     "User-Agent": "Mozilla/5.0 (X11; CrOS x86_64 12871.102.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.141 Safari/537.36"
 }
@@ -29,6 +31,7 @@ while(req_url!=None):
         college_info['alias'] = college['institution']['aliasNames']
         i += 1
         entries.append(college_info)
+        print('im doing something')
 
     next_page = raw_data['data']['next_link']
     req_url = next_page

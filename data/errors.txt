@@ -1,0 +1,111 @@
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Long-Island-University/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+HTTPSConnectionPool(host='waf.collegedata.com', port=443): Read timed out. (read timeout=None)
+['Taylor University', 'Taylor-University']
+
+('Connection aborted.', TimeoutError(60, 'Operation timed out'))
+['Embry-Riddle Aeronautical University--Prescott', 'Embry-Riddle-Aeronautical-University-Prescott']
+
+('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+['Monmouth University', 'Monmouth-University']
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Dean-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Bethel-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/University-of-Guam/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Abraham-Baldwin-Agricultural-College/academics.json: 
+'profile'
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/American-University-of-Puerto-Rico-Manati/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Colorado-Mountain-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Crowley's-Ridge-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Herzing-University/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Lincoln-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Aultman-College-of-Nursing-and-Health-Sciences/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Bon-Secours-Memorial-College-of-Nursing/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/College-of-Central-Florida/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Georgia-Military-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Hult-International-Business-School/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Indian-River-State-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Kent-State-University-at-East-Liverpool/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Lackawanna-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Lakeview-College-of-Nursing/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Midland-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/National-University-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Navajo-Technical-University/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Pacific-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Palm-Beach-State-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Platt-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Polk-State-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Santa-Fe-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Sentara-College-of-Health-Sciences/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Sitting-Bull-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/State-College-of-Florida-Manatee-Sarasota/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/St-Petersburg-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/University-of-Saint-Katherine/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Valencia-College/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
+https://waf.collegedata.com/_next/data/cEYMtGiystRxZ5w1QjP_J/college-search/Westcliff-University/academics.json: 
+Expecting value: line 1 column 1 (char 0)
+
