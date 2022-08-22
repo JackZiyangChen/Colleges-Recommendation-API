@@ -1,6 +1,3 @@
-import numpy
-
-import pandas
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
@@ -11,27 +8,27 @@ import os
 
 
 
-def us_news_data_cleaner(df):
-    df['region'].replace(np.nan, 'national', inplace=True)
-    df['rank'].replace(-2, 999, inplace=True)
-    df['rank'].replace(-1, 999, inplace=True)
-    df['computerScienceRepScore'].replace([np.nan,'< 2.0'], 0, inplace=True)
-    df['engineeringRepScore'].replace([np.nan,'< 2.0'], 0, inplace=True)
-    df['businessRepScore'].replace([np.nan,'< 2.0'], 0, inplace=True)
-    df['nursingRepScore'].replace([np.nan,'< 2.0'], 0, inplace=True)
+# def us_news_data_cleaner(df):
+#     df['region'].replace(np.nan, 'national', inplace=True)
+#     df['rank'].replace(-2, 999, inplace=True)
+#     df['rank'].replace(-1, 999, inplace=True)
+#     df['computerScienceRepScore'].replace([np.nan,'< 2.0'], 0, inplace=True)
+#     df['engineeringRepScore'].replace([np.nan,'< 2.0'], 0, inplace=True)
+#     df['businessRepScore'].replace([np.nan,'< 2.0'], 0, inplace=True)
+#     df['nursingRepScore'].replace([np.nan,'< 2.0'], 0, inplace=True)
 
 
-    df['computerScienceRepScore'] = pd.to_numeric(df['computerScienceRepScore'])
-    df['engineeringRepScore'] = pd.to_numeric(df['engineeringRepScore'])
-    df['businessRepScore'] = pd.to_numeric(df['businessRepScore'])
-    df['nursingRepScore'] = pd.to_numeric(df['nursingRepScore'])
+#     df['computerScienceRepScore'] = pd.to_numeric(df['computerScienceRepScore'])
+#     df['engineeringRepScore'] = pd.to_numeric(df['engineeringRepScore'])
+#     df['businessRepScore'] = pd.to_numeric(df['businessRepScore'])
+#     df['nursingRepScore'] = pd.to_numeric(df['nursingRepScore'])
 
-    df['computerScienceRepScore'] = df['computerScienceRepScore'] - 4.0
-    df['engineeringRepScore'] = df['engineeringRepScore'] - 4.0
-    df['businessRepScore'] = df['businessRepScore'] - 4.0
-    df['nursingRepScore'] = df['nursingRepScore'] - 4.0
+#     df['computerScienceRepScore'] = df['computerScienceRepScore'] - 4.0
+#     df['engineeringRepScore'] = df['engineeringRepScore'] - 4.0
+#     df['businessRepScore'] = df['businessRepScore'] - 4.0
+#     df['nursingRepScore'] = df['nursingRepScore'] - 4.0
 
-    return df
+#     return df
 
 # note: all column in us news 2022 are written in camelCase
 # if __name__ == '__main__':

@@ -4,7 +4,8 @@ import os
 import json
 from flask import jsonify, make_response, Blueprint
 from collections import OrderedDict
-from app.models.beta_recommender import BetaRecommender, us_news_data_cleaner
+from app.models.beta_recommender import BetaRecommender
+from app.models.preparation import us_news_data_cleaner
 from flask_restful import request as rest_rq
 
 
