@@ -33,6 +33,7 @@ while(req_url!=None):
 
     college_list = raw_data['data']['items']
     for college in college_list:
+        print(college['institution']['displayName'])
         college_info = {}
 
         college_info['id'] = college['primaryKey'][2]
@@ -46,8 +47,7 @@ while(req_url!=None):
 
         for col in TEST_DATA:
             score = str(college['searchData'][col]['displayValue']).split("-")
-            print(college['institution']['displayName'])
-            print(score)
+            # print(score)
             if score == None or len(score) <= 1:
                 college_info[col.replace('Avg', '25')] = None
                 college_info[col.replace('Avg', '75')] = None
@@ -57,10 +57,11 @@ while(req_url!=None):
         entries.append(college_info)
 
     next_page = raw_data['data']['next_link']
+    print(f'next page: {next_page}')
     req_url = next_page
 
 
-with open('../data/us_news_2022.csv','w') as f:
+with open('../data/us_news_2023.csv','w') as f:
     writer = csv.writer(f,quotechar='"',delimiter=',',quoting=csv.QUOTE_MINIMAL)
     requested_fields = INSTITUTION_DATA + SEARCH_DATA
     data_columns = [fields_map[item] for item in requested_fields] + ['sat25','sat75','act25','act75']

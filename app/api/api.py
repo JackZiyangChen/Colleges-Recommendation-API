@@ -15,7 +15,7 @@ class USNewsRequest(Resource):
 
     def __init__(self):
         self.loader = DataLoader()
-        df = self.loader.load_from_csv('us_news_2022.csv')
+        df = self.loader.load_from_csv('us_news_2023.csv')
         self.reqparse = reqparse.RequestParser()
 
         for col_name in df.columns:
