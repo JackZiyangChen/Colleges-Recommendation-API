@@ -5,19 +5,21 @@ from flask_restful import Api, Resource
 from flask_migrate import Migrate
 from app.api.api import FullRecommend, Search, USNewsRequest, BetaRecommend
 import os
+from dotenv import load_dotenv
 
 
 
 db = SQLAlchemy()
 DB_NAME = "database.db"
+ENV_PATH = os.path.join(os.getcwd(), '..','.env')
 
 API_NAV = "/api/"
 
 app = Flask(__name__)  # intialize flask app
 
 def create_app():
-    app.config['SECRET_KEY'] = ""  # I love python! 256
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'f:///site.db'
+    app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')  # I love python! 256
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DB_URI')
     app.config['JSON_SORT_KEYS'] = False
 
 
