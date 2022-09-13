@@ -26,9 +26,38 @@ def us_news_data_cleaner(df):
     df['businessRepScore'] = df['businessRepScore'] - 4.0
     df['nursingRepScore'] = df['nursingRepScore'] - 4.0
 
+
     return df
 
-def vectorize_data(self, df, features, column_name="combined_features"):
+def normalize_test_score(df):
+    DataPointTransformation.scale_to_range_zero_one(df, 'sat25', 400, 1600)
+    DataPointTransformation.scale_to_range_zero_one(df, 'sat75', 400, 1600)
+    DataPointTransformation.scale_to_range_zero_one(df, 'act25', 18, 36)
+    DataPointTransformation.scale_to_range_zero_one(df, 'act75', 18, 36)
+
+def college_data_cleaner_basic(df):
+
+    transform_feature(df, 'overall admission rate', DataPointTransformation.invert_percentage())
+    transform_feature(df, 'overall admission rate.men', DataPointTransformation.invert_percentage())
+    transform_feature(df, 'overall admission rate.women', DataPointTransformation.invert_percentage())
+    transform_feature(df, 'average gpa', DataPointTransformation.scale_to_range_zero_one(0.0, 4.0))
+
+    transform_feature(df, 'received financial aid', DataPointTransformation.invert_percentage())
+    transform_feature(df, 'need fully met', DataPointTransformation.invert_percentage())
+    transform_feature(df, 'average percent of need met', DataPointTransformation.invert_percentage())
+    transform_feature(df, 'city size', DataPointTransformation.scale_to_range_zero_one(1000, 1000000)) # TODO: turn into log scaling
+    transform_feature(df, 'campus size', DataPointTransformation.scale_to_range_zero_one(df['campus size'].min(), df['campus size'].max()))
+
+
+    transform_feature(df, 'sororities', DataPointTransformation.invert_percentage())
+    transform_feature(df, 'fraternities', DataPointTransformation.invert_percentage())
+
+
+    
+
+
+
+def vectorize_data(df, features, column_name="combined_features"):
         '''
         use CountVectorizer to vectorize the string data from features
 
@@ -37,16 +66,30 @@ def vectorize_data(self, df, features, column_name="combined_features"):
         '''
 
         data_list = [] # each element is a list of features for each row
-        for i in range(0, self.df.shape[0]):
+        for i in range(0, df.shape[0]):
             tokens = ""
             for feature in features:
-                tokens += str(self.df[feature][i]) + " "
+                tokens += str(df[feature][i]) + " "
             data_list.append(tokens)
 
         vectorizer = CountVectorizer()
         matrix = vectorizer.fit_transform(data_list)
         df_out = pd.DataFrame(matrix.toarray(), columns=[f'{column_name}_{i}' for i in range(0, matrix.shape[1])])
         return df_out
+
+def transform_feature(df, feature_name, method):
+    if feature_name in df.columns:
+        df[feature_name] = df[feature_name].apply(method)
+    else:
+        raise Exception("Column {} not found".format(feature_name))
+
+
+class DataPointTransformation:
+    def scale_to_range_zero_one(self, min, max):
+        return lambda val: (val - min) / (max - min)
+
+    def invert_percentage(self):
+        return lambda x: (100 - x) / 100
 
 
 
